@@ -3,7 +3,7 @@
 
 
 ## 运行项目
-git clone
+git clone git@github.com:ytxhjjjx-lx/store.git
 
 cnpm i
 
