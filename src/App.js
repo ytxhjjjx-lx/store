@@ -26,7 +26,7 @@ class App extends React.Component{
     componentWillMount() {
         http.get(api.host + '/carts')
             .then(res => {
-                console.log(res.data)
+                // console.log(res.data)
                 this.props.dispatch({'type': 'SAVE_CARTS', 'data': res.data})
             })
     }
